@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-with, inital-scale=1.0">
+    <title>Mi cv digital</title>
+</head>
+<body>
+    <h1>Registro de la cancion para el concurso</h1>
+    <form action="#" name="envio_datos">
+        <h5 style="background: #c3f901;">Datos del usuario</h5>
+        <label for="nombres">Nombres</label>
+        <input type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre">
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Ingresa tu password">
+
+        <br>
+        <label for="sexo"><b>Seleccione su sexo</b></label><br>
+        <input type="radio" name="sexo" value="masculino"> Masculino<br>
+        <input type="radio" name="sexo" value="femenino"> Femenino<br>
+
+        <label for="pais">País</label>
+        <select name="pais" od="pais">
+            <option value="Perú">Perú</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Chile">Chile</option>
+        </select>
+
+        <br>
+
+        <h5 style="background: #c3f901;">Datos de la música</h5><br>
+        <label for="tipo_musica"> <b>Seleccione el tipo de musica</b></label><br>
+        <input type="checkbox" name="musica" value="clasica">Clasica <br>
+        <input type="checkbox" name="musica" value="pop">Pop <br>
+        <input type="checkbox" name="musica" value="rock">Rock <br>
+
+        <label for="archivo"><b>Seleccione la cancion a enviar</b></label>
+        <input type="file" name="archivo">
+
+        <br>
+
+        <label for="mensaje">Ingrese un mensaje</label><br>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+        <button type="button" onclick="alert('Hola Mundo')">Saludo</button>
+
+    </form>
+
+</body>
+</html>
